@@ -93,7 +93,7 @@
       <File Path="$PSRCDIR/sources_1/imports/src/sevenseg_decoder.vhd">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/src/sevenseg_decoder.vhd"/>
-          <Attr Name="ImportTime" Val="1773272867"/>
+          <Attr Name="ImportTime" Val="1773349838"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -109,7 +109,6 @@
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="top_basys3"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -134,7 +133,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sim_1/new/sevenseg_decoder_tb.vhd">
+      <File Path="$PPRDIR/src/sevenseg_decoder_tb.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -144,7 +143,7 @@
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/src/top_basys3.vhd"/>
-          <Attr Name="ImportTime" Val="1771869351"/>
+          <Attr Name="ImportTime" Val="1773349799"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
